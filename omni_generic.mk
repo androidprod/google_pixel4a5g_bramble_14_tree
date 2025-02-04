@@ -15,13 +15,12 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from generic device
 $(call inherit-product, device/google/generic/device.mk)
 
-PRODUCT_DEVICE := generic
-PRODUCT_NAME := omni_generic
+PRODUCT_DEVICE := bramble
+PRODUCT_NAME := twrp_bramble
 PRODUCT_BRAND := google
-PRODUCT_MODEL := mainline
+PRODUCT_MODEL := bramble
 PRODUCT_MANUFACTURER := google
 
-PRODUCT_GMS_CLIENTID_BASE := android-google
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="bramble-user 14 UP1A.231105.001.B2 11260668 release-keys"
